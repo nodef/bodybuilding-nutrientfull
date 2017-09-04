@@ -1,0 +1,28 @@
+{
+  "name": "bodybuilding-nutrientfull",
+  "version": "0.0.0",
+  "description": "Get JSON Nutrient Data from Bodybuilding.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfram77/cmd-bodybuilding-nutrientfull.git"
+  },
+  "keywords": [
+    "bodybuilding",
+    "nutrient",
+    "full"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolfram77/cmd-bodybuilding-nutrientfull/issues"
+  },
+  "homepage": "https://github.com/wolfram77/cmd-bodybuilding-nutrientfull#readme",
+  "dependencies": {
+    "jsdom": "^11.2.0",
+    "lodash.assign": "^4.2.0"
+  }
+}
