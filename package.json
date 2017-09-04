@@ -1,10 +1,13 @@
 {
   "name": "bodybuilding-nutrientfull",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get JSON Nutrient Data from Bodybuilding.com.",
   "main": "index.js",
   "scripts": {
     "test": "exit"
+  },
+  "bin": {
+    "bodybuilding-nutrientfull": "index.js"
   },
   "repository": {
     "type": "git",
