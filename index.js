@@ -6,7 +6,7 @@ const _assign = require('lodash.assign');
 const text = function(td) {
   const font = td.getElementsByTagName('font');
   const b = font[0].getElementsByTagName('b');
-  return b.length? b[0].innerHTML : font[0].innerHTML;
+  return b.length? b[0].textContent : font[0].textContent;
 };
 
 const request = function(path) {
