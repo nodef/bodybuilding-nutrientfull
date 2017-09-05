@@ -19,7 +19,7 @@ const $ = function(id) {
       var data = '';
       if(res.statusCode!==200) {
         res.resume();
-        return fres(new Error(`Bad Response: ${res.statusCode}`));
+        return frej(new Error(`Bad Response: ${res.statusCode}`));
       }
       res.setEncoding('utf8');
       res.on('data', (chunk) => data += chunk);
